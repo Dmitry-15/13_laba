@@ -11,5 +11,6 @@ def fun1(a):
     return fun2
 
 
-test_fun = fun1(4)
-print(test_fun(7))
+if __name__ == '__main__':
+    test_fun = fun1(4)
+    print(test_fun(7))
