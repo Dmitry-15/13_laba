@@ -14,7 +14,7 @@
 """
 
 
-def func(type: str):
+def func(type):
     def inner(value):
         gen = (e for e in value.split())
         if type == 'list':
